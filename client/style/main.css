@@ -1,0 +1,453 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #33374E;
+  margin-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__your-cart {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.navbar__your-cart-row{
+  justify-content: center;
+}
+
+.navbar__your-cart-name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #1F2432;
+  font-size: 14px;
+}
+
+.navbar__count-item {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 145%;
+  color: #797B86;
+}
+
+.navbar__total_price {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  color: #1F2432;
+  font-size: 12px;
+}
+
+.navbar__container {
+  width: 171px;
+  height: 80px;
+  display: flex;
+}
+
+.navbar__container__a-main {
+  width: 49px;
+  height: 21px;
+  color: #33374E;
+  margin-right: 8px;
+}
+
+.navbar__container__triangle{
+  position: relative;
+  top: 5px;
+  left: 3px;
+}
+
+.navbar__container__a-cart {
+  width: 54px;
+  height: 21px;
+  color: #797B86;
+}
+
+
+.container-your-cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-your-cart__h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 120.52%;
+  color: #1F2432;
+}
+
+.container-your-cart__count_items {
+  position: relative;
+  width: 81px;
+  height: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #797B86;
+  top: 20px;
+  left: 40px;
+
+}
+
+.container-your-cart__clear-cart {
+  position: relative;
+  width: 128px;
+  height: 21px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #797B86;
+  top: 23px;
+  left: 335px;
+}
+
+.main-container-cart-total {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.main-container-cart-total__container-items {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.main-container-cart-total__item-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  height: 80px;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+.main-container-cart-total__item-1_img {
+  width: 100px;
+  height: 100px;
+  background: url(https://www.aereco.ru/wp-content/uploads/2019/04/multi-controlled-exhaust-unit-natural-hybrid-ventilation-g2h-2-300x300.jpg);
+}
+
+.main-container-cart-total__img_item {
+  width: 100px;
+  height: 100px;
+}
+
+.main-container-cart-total__item-1_title {
+  width: 209px;
+  height: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+  color: #1F2432;
+}
+
+.main-container-cart-total__item-1_params {
+  width: 263px;
+  height: 36px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2C3242;
+}
+
+.main-container-cart-total__item-1_art {
+  width: 123px;
+  height: 21px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #797B86;
+}
+
+.main-container-cart-total__contain-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 102px;
+  height: 34px;
+  background: #F6F8FA;
+  border-radius: 4px;
+}
+
+.main-container-cart-total__contain-count__minus-btn {
+  font-weight:lighter;
+  font-size: 30px;
+  border: none;
+  background: none;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 30px;
+  height: 102px;
+}
+
+.main-container-cart-total__contain-count__border_minus {
+  position: relative;
+  left: 8px;
+  height: 0px;
+  width: 8px;
+  border: 1px solid #33374E;
+  transform: rotate(0deg);
+}
+
+.main-container-cart-total__contain__rectangle {
+  width: 2px;
+  height: 34px;
+  background: #ffffff;
+}
+
+.main-container-cart-total__contain__count-item-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 34px;
+}
+
+.main-container-cart-total__contain__plus {
+  border: none;
+  background: none;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 30px;
+  height: 102px;
+}
+
+.main-container-cart-total__contain__border_plus-1 {
+  height: 0px;
+  width: 8px;
+  border: 1px solid #33374E;
+  transform: rotate(90deg);
+}
+.main-container-cart-total__contain__border_plus-2 {
+  position: relative;
+  height: 0px;
+  width: 8px;
+  bottom: 2px;
+  border: 1px solid #33374E;
+  transform: rotate(0deg);
+}
+
+.main-container-cart-total__item_price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 145%;
+  text-align: right;
+}
+
+.main-container-cart-total__closet {
+  position: relative;
+  bottom: 30px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.total {
+  width: 425px;
+  height: 458px;
+  background: #F6F8FA;
+  margin-left: 30px;
+  padding: 35px;
+}
+
+.total__container__h {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120.52%;
+}
+
+.total__container__sum {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.total__container__sum-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.total__container__sum-row-h{ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #1F2432;
+}
+
+.total__container__sum-row-title{ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 145%;
+  color: #1F2432;
+}
+
+.total__container__sum-row-h-2{ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 145%;
+  color: #1F2432;
+}
+
+.total__container__sum-row-title-2{ 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 130%;
+  color: #1F2432;
+}
+
+.total__container-btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+}
+
+.total__container-btn-1 {
+  height: 54px;
+  background: #0069B4;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.total__container-btn-1:hover {
+  background: #2f86c5;
+  cursor: pointer;
+}
+
+.total__container-btn-2 {
+  height: 54px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #0069B4;
+}
+
+.total__container-btn-2:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.total__container-btn__title-1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #ffffff;
+}
+.total__container-btn__title-2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  color: #0069B4;
+}
+
+.main-container-cart-total__installation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 102px;
+  background: #F6F8FA;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.main-container-cart-total__installation__flex {
+  display: flex;
+  flex-direction: column;
+}
+.main-container-cart-total__installation__h {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+}
+
+.main-container-cart-total__installation__title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #797B86;
+}
+
+
+/* .item-1_minus {
+  width: 2px;
+  height: 8px;
+  border: 1px solid #33374E;
+  transform: rotate(90deg);
+}
+
+.item-1_count {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+.item-1_plus {
+  width: 2px;
+  height: 8px;
+  border: 1px solid #33374E;
+  transform: rotate(90deg);
+} */

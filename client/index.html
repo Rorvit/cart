@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/main.css" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap" rel="stylesheet">
+  <title>Cart</title>
+  <script defer src="./index.js"></script>
+</head>
+<body>
+  <div>
+    <div class="navbar">
+      <div>
+        <div class="navbar__your-cart">
+          <img width="28px" height="25px" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-shopping-cart-interface-kiranshastry-lineal-kiranshastry-1.png"/>
+          <div class="navbar__your-cart-row">
+            <div class="navbar__your-cart-name">Ваша корзина</div>
+            <div class="navbar__count-item">3 товара</div>
+            <div class="navbar__total_price">50 576₽</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar__container">
+        <a class="navbar__container__a-main" href="#">Главная</a>
+        <img class="navbar__container__triangle" width="20px" height="13px" src="https://img.icons8.com/material-rounded/24/000000/sort-right.png"/>
+        <a class="navbar__container__a-cart" href="#">Корзина</a>
+      </div>
+    </div>
+
+    <div class="container-your-cart">
+      <div class="container-your-cart">
+        <div class="container-your-cart__h1">Ваша корзина</div>
+        <div class="container-your-cart__count_items">3 товара</div>
+      </div>
+      <div class="container-your-cart__clear-cart">Очистить корзину</div>
+    </div>
+
+    <div class="main-container-cart-total">
+      <div class="main-container-cart-total__container_items">
+
+        <div class="main-container-cart-total__item-1">
+          
+          <div class="main-container-cart-total__item-1_img">
+            <img class="main-container-cart-total__img_item" src="https://euroclimate.org/image/cache/data/G2h-500x500.jpg">
+          </div>
+
+          <div>
+            <div class="main-container-cart-total__item-1_title">Вытяжное устройство G2H</div>
+            <div class="main-container-cart-total__item-1_params">12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия</div>
+            <div class="main-container-cart-total__item-1_art">Артикул: G2H1065</div>
+          </div>
+          
+          <div class="main-container-cart-total__contain-count">
+            <button class="main-container-cart-total__contain-count__minus-btn" id="min">
+              <div class="main-container-cart-total__contain-count__border_minus" ></div>
+            </button>
+            <div class="main-container-cart-total__contain__rectangle"></div>
+
+            <div class="main-container-cart-total__contain__count-item-1">1</div>
+            
+            <div class="main-container-cart-total__contain__rectangle"></div>
+            <button class="main-container-cart-total__contain__plus">
+              <div class="main-container-cart-total__contain__border_plus-1"></div>
+              <div class="main-container-cart-total__contain__border_plus-2"></div>
+            </button>
+          </div>
+
+          <div class="main-container-cart-total__item_price">12 644₽</div>
+
+          <div data-id="1" class="main-container-cart-total__closet">
+             <img id="x" src="https://img.icons8.com/material-outlined/24/000000/multiply--v1.png"/>
+          </div>
+
+        </div>
+        <hr width="100%">
+        
+        <div class="main-container-cart-total__item-1">
+
+          <div class="main-container-cart-total__item-1_img">
+            <img class="main-container-cart-total__img_item" src="https://euroclimate.org/image/cache/data/ventilyaciya/aereco/bxcmin-500x500.jpg">
+          </div>
+
+          <div>
+            <div class="main-container-cart-total__item-1_title">Вытяжное устройство BXC</div>
+            <div class="main-container-cart-total__item-1_params">12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия</div>
+            <div class="main-container-cart-total__item-1_art">Артикул: G2H1065</div>
+          </div>
+          
+          <div class="main-container-cart-total__contain-count">
+            <button class="main-container-cart-total__contain-count__minus-btn" id="min">
+              <div class="main-container-cart-total__contain-count__border_minus" ></div>
+            </button>
+            <div class="main-container-cart-total__contain__rectangle"></div>
+
+            <div class="main-container-cart-total__contain__count-item-1">1</div>
+            
+            <div class="main-container-cart-total__contain__rectangle"></div>
+            <button class="main-container-cart-total__contain__plus">
+              <div class="main-container-cart-total__contain__border_plus-1"></div>
+              <div class="main-container-cart-total__contain__border_plus-2"></div>
+            </button>
+          </div>
+
+          <div class="main-container-cart-total__item_price">25 282₽</div>
+
+          <div data-id="2" class="main-container-cart-total__closet">
+             <img id="x" src="https://img.icons8.com/material-outlined/24/000000/multiply--v1.png"/>
+          </div>
+
+        </div>
+        
+        <hr width="100%">
+        <div class="main-container-cart-total__item-1">
+
+          <div class="main-container-cart-total__item-1_img">
+            <img class="main-container-cart-total__img_item" src="https://www.aereco.ru/wp-content/uploads/2019/04/humidity-sensitive-exhaust-unit-natural-hybrid-ventilation-ghn-main-550x400.jpg" />
+          </div>
+
+          <div>
+            <div class="main-container-cart-total__item-1_title">Вытяжное устройство GHN</div>
+            <div class="main-container-cart-total__item-1_params">12-72/168 м3/ч / гидрорегулируемый расход / от датчика присутствия</div>
+            <div class="main-container-cart-total__item-1_art">Артикул: G2H1065</div>
+          </div>
+          
+          <div class="main-container-cart-total__contain-count">
+            <button class="main-container-cart-total__contain-count__minus-btn">
+              <div class="main-container-cart-total__contain-count__border_minus" ></div>
+            </button>
+            <div class="main-container-cart-total__contain__rectangle"></div>
+
+            <div class="main-container-cart-total__contain__count-item-1">1</div>
+            
+            <div class="main-container-cart-total__contain__rectangle"></div>
+            <button class="main-container-cart-total__contain__plus">
+              <div class="main-container-cart-total__contain__border_plus-1"></div>
+              <div class="main-container-cart-total__contain__border_plus-2"></div>
+            </button>
+          </div>
+
+          <div class="main-container-cart-total__item_price">12 644₽</div>
+
+          <div data-id="2" class="main-container-cart-total__closet">
+            <img id="x" src="https://img.icons8.com/material-outlined/24/000000/multiply--v1.png"/>
+         </div>
+
+        </div>
+        
+        <hr width="100%">
+        <div class="main-container-cart-total__installation">
+          <div>
+            <input onclick="() => checkTrue()" type="checkbox" name="check" id="check">
+          </div>
+          <div>
+            <img src="https://img.icons8.com/ultraviolet/40/000000/maintenance.png"/>
+          </div>
+          <div class="main-container-cart-total__installation__flex">
+            <div class="main-container-cart-total__installation__h">Установка</div>
+            <div class="main-container-cart-total__installation__title">Отметьте, если Вам необходима консультация профессионала по монтажу выбранных товаров.</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="total">
+        <div class="total__container__h">Итого</div>
+
+        <div class="total__container__sum">
+          <div class="total__container__sum-row">
+            <div class="total__container__sum-row-h">Сумма заказа</div>
+            <div class="total__container__sum-row-title">50 567</div>
+          </div>
+
+          <div class="total__container__sum-row">
+            <div class="total__container__sum-row-h">Колличество</div>
+            <div class="total__container__sum-row-title" id="amount">3 шт</div>
+          </div>
+
+          <div class="total__container__sum-row">
+            <div class="total__container__sum-row-h">Установка</div>
+            <div class="total__container__sum-row-title" id="install">Нет</div>
+          </div>
+        </div>
+        <hr width="100%">
+        <div class="total__container__sum-row">
+          <div class="total__container__sum-row-h-2">Стоимость товаров</div>
+          <div class="total__container__sum-row-title-2">50 576₽</div>
+        </div>
+        
+        <div class="total__container-btn">
+          <button class="total__container-btn-1">
+            <div class="total__container-btn__title-1">Оформить заказ</div>
+          </button>
+          <button class="total__container-btn-2">
+            <div class="total__container-btn__title-2">Купить в 1 клик</div> 
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
